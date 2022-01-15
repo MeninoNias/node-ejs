@@ -22,7 +22,7 @@ var pessoas = [
 ]
 
 app.get('/', (req, res) => {
-    res.render('home', {pessoas: pessoas});
+    res.render('index', {pessoas: pessoas});
 });
 
 app.listen(port,() => {
